@@ -1,5 +1,5 @@
 #!/bin/bash -e
-# This script only work for Pi 2/3.
+# This script only works for Pi 2/3.
 
 if [ "$#" -ne 1 ]; then
     cat <<-ENDOFMESSAGE
