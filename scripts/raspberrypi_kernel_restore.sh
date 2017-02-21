@@ -1,4 +1,5 @@
 #!/bin/bash -e
+# Tested restoring kernel 4.4.50-v7+ with rsync version 3.1.1
 
 if [ "$#" -ne 1 ]; then
     cat <<-ENDOFMESSAGE
