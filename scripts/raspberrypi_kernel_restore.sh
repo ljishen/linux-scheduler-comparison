@@ -85,10 +85,8 @@ restore () {
   echo -e "\nrestore /lib/firmware/ ..."
   rsync --verbose --recursive --delete "${foldername}"/root/lib/firmware/ "${p_root}"/lib/firmware
 
-  local version
-  version=`ls "${foldername}"/root/lib/modules/`
-  echo -e "\nrestore /lib/modules/${version}/ ..."
-  rsync --verbose --recursive --delete "${foldername}"/root/lib/modules/"${version}/" "${p_root}"/lib/modules/"${version}"
+  echo -e "\nrestore /lib/modules/ ..."
+  rsync --verbose --recursive --delete "${foldername}"/root/lib/modules/ "${p_root}"/lib/modules
 
   # do clean up
   echo -e "\ndo clean up ..."
