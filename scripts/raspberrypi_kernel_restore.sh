@@ -80,19 +80,18 @@ restore () {
   # start restore
 
   echo -e "\nrestore /boot/ ..."
-  local foldername
-  foldername="${FILENAME%.*.*}"
-  rsync --verbose --recursive --delete "${foldername}"/boot/ "${p_boot}"
+  readonly FOLDERNAME=`basename "${FILENAME%.*.*}"`
+  rsync --verbose --recursive --delete "${FOLDERNAME}"/boot/ "${p_boot}"
 
   echo -e "\nrestore /lib/firmware/ ..."
-  rsync --verbose --recursive --delete "${foldername}"/root/lib/firmware/ "${p_root}"/lib/firmware
+  rsync --verbose --recursive --delete "${FOLDERNAME}"/root/lib/firmware/ "${p_root}"/lib/firmware
 
   echo -e "\nrestore /lib/modules/ ..."
-  rsync --verbose --recursive --delete "${foldername}"/root/lib/modules/ "${p_root}"/lib/modules
+  rsync --verbose --recursive --delete "${FOLDERNAME}"/root/lib/modules/ "${p_root}"/lib/modules
 
   # do clean up
   echo -e "\ndo clean up ..."
-  rm -rf "${foldername}"
+  rm -rf "${FOLDERNAME}"
 }
 
 
