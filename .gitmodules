@@ -1,0 +1,3 @@
+[submodule "phoronix-test-profiles"]
+	path = phoronix-test-profiles
+	url = https://github.com/ljishen/phoronix-test-profiles.git
