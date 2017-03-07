@@ -18,7 +18,7 @@
     <License>Free</License>
     <Status>Verified</Status>
     <ExternalDependencies>build-utilities</ExternalDependencies>
-    <EnvironmentSize>0.1</EnvironmentSize>
+    <EnvironmentSize>0.2</EnvironmentSize>
     <ProjectURL>https://launchpad.net/ubuntu/zesty/+package/rt-tests</ProjectURL>
     <InternalTags>SMP</InternalTags>
     <Maintainer>Jianshen Liu</Maintainer>
