@@ -45,7 +45,7 @@ install () {
 }
 
 while true; do
-  read -p "Do you really want to install package \"${FILENAME}\" ? [y/n] " yn
+  read -p "Do you really want to install package \"${FILENAME}\" ? [Y/n] " yn
   case $yn in
     [Yy]* )
       install

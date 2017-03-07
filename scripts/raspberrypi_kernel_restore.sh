@@ -28,10 +28,10 @@ get_mount_points () {
   os_info="$(cat /etc/os-release 2> /dev/null)"
   if [[ ${os_info} == *"raspbian"* ]]; then
     while true; do
-      read -p "Do you modify the current Raspbian OS ? [y/n] " yn
+      read -p "Do you modify the current Raspbian OS ? [Y/n] " yn
       case $yn in
         [Yy]* )
-          read -p "Are you sure ? [y/n] " su
+          read -p "Are you sure ? [Y/n] " su
           if [[ ${su} =~ ^[Nn]*$ ]]; then
             echo -e "\nPlease restart this script to continue." >&2
             exit 1
@@ -97,7 +97,7 @@ restore () {
 
 while true; do
   echo
-  read -p "Do you really want to restore using package \"${FILENAME}\" ? [y/n] " yn
+  read -p "Do you really want to restore using package \"${FILENAME}\" ? [Y/n] " yn
   case $yn in
     [Yy]* )
       restore

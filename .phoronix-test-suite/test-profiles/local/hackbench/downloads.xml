@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v6.8.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://launchpad.net/ubuntu/+archive/primary/+files/rt-tests_1.0.orig.tar.xz</URL>
+      <MD5>3818d2d0a3069291864bf85fde40883b</MD5>
+      <SHA256>aea85fd8eda8c1d96e9d32a019bfd4a1d2e0d362971d97838996f49d1af2d470</SHA256>
+      <FileSize>86096</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
