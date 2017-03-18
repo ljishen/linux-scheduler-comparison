@@ -1,0 +1,92 @@
+
+[1;32mPhoronix Test Suite v7.0.0[0m
+[1;32m[0m
+    Installed: pts/video-sample-1.0.0
+    Installed: ljishen/latt-1.0.0
+
+
+Latt 0.1:
+    ljishen/latt-1.0.0
+    Processor Test Configuration
+        [1m1: [0m4
+        [1m2: [0m8
+        [1m3: [0m16
+        [1m4: [0m32
+        [1m5: [0mTest All Options
+        [1mNumber Clients: [0m
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mARMv7 rev 4 @ 1.20GHz (4 Cores)[0m
+    [1mScreen[0m:           1280x1024
+
+  [1;30mMOTHERBOARD[0m:        [1;32mBCM2709 Raspberry Pi 3 Model B Rev 1.2[0m
+    [1mMemory[0m:           925MB
+
+  [1;30mDISK[0m:               [1;32m16GB SU16G[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    data=ordered noatime rw
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mRaspbian 8.0[0m
+    [1mKernel[0m:           4.4.50-v7+ (armv7l)
+    [1mCompiler[0m:         GCC 4.9.2
+
+
+[1mRecently Saved Test Results:[0m
+- scheduler-comparison   [Today]
+
+    Enter a name to save these results under: 
+Current Test Identifiers:
+- SCHED_OTHER and nice=-20
+- SCHED_OTHER and nice=19
+- SCHED_OTHER and nice=19
+- SCHED_OTHER and nice=19
+
+    Enter a unique name to describe this test run / configuration: 
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+Current Description: ARMv7 rev 4 testing on Raspbian 8.0 via the Phoronix Test Suite.
+
+New Description: 
+Sensors To Be Logged:
+   - CPU Frequency (CPU0)
+   - CPU Frequency (CPU1)
+   - CPU Frequency (CPU2)
+   - CPU Frequency (CPU3)
+   - CPU Usage (CPU0)
+   - CPU Usage (CPU1)
+   - CPU Usage (CPU2)
+   - CPU Usage (CPU3)
+   - CPU Usage (Summary)
+   - Drive Read Speed (mmcblk0)
+   - Drive Write Speed (mmcblk0)
+   - Memory Usage
+   - Swap Usage
+   - System Iowait
+   - System Temperature
+
+
+[1;36mLatt 0.1:
+    ljishen/latt-1.0.0 [Number Clients: 8][0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 2 Minutes [12:09 PDT]
+        Started Run 1 @ 12:08:54
+        Started Run 2 @ 12:09:10
+        Started Run 3 @ 12:09:24
+
+    Number Clients: 8:
+        [1;31m400382[0m
+        400028
+        [1;32m389951[0m
+
+    Average: [1;34m396787 ms[0m
+    Deviation: 1.49%
+
+
+Finishing System Sensor Monitoring Process
+    [1mDo you want to view the text results of the testing (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m    [1mWould you like to attach the system logs (lspci, dmesg, lsusb, etc) to the test result (Y/n): [0m
+Results Uploaded To: http://openbenchmarking.org/result/1703164-RI-SCHEDULER40
+

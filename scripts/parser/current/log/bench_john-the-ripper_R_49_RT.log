@@ -1,0 +1,130 @@
+
+[1;32mPhoronix Test Suite v7.0.0[0m
+[1;32m[0m
+    Installed: pts/john-the-ripper-1.5.1
+
+
+John The Ripper 1.8.0:
+    pts/john-the-ripper-1.5.1
+    Processor Test Configuration
+        [1m1: [0mTraditional DES
+        [1m2: [0mMD5
+        [1m3: [0mBlowfish
+        [1m4: [0mTest All Options
+        [1mTest: [0m
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mARMv7 rev 4 @ 1.20GHz (4 Cores)[0m
+    [1mScreen[0m:           1280x1024
+
+  [1;30mMOTHERBOARD[0m:        [1;32mBCM2709 Raspberry Pi 3 Model B Rev 1.2[0m
+    [1mMemory[0m:           924MB
+
+  [1;30mDISK[0m:               [1;32m16GB SU16G[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    data=ordered noatime rw
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mRaspbian 8.0[0m
+    [1mKernel[0m:           4.4.50-rt63-v7+ (armv7l)
+    [1mCompiler[0m:         GCC 4.9.2
+
+
+[1mRecently Saved Test Results:[0m
+- scheduler-comparison   [Today]
+
+    Enter a name to save these results under: 
+Current Test Identifiers:
+- SCHED_OTHER and nice=-20
+- SCHED_OTHER and nice=19
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
+- SCHED_RT_FIFO and prio=99
+
+    Enter a unique name to describe this test run / configuration:     Enter a unique name to describe this test run / configuration: 
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+Current Description: ARMv7 rev 4 testing on Raspbian 8.0 via the Phoronix Test Suite.
+
+New Description: 
+Sensors To Be Logged:
+   - CPU Frequency (CPU0)
+   - CPU Frequency (CPU1)
+   - CPU Frequency (CPU2)
+   - CPU Frequency (CPU3)
+   - CPU Usage (CPU0)
+   - CPU Usage (CPU1)
+   - CPU Usage (CPU2)
+   - CPU Usage (CPU3)
+   - CPU Usage (Summary)
+   - Drive Read Speed (mmcblk0)
+   - Drive Write Speed (mmcblk0)
+   - Memory Usage
+   - Swap Usage
+   - System Iowait
+   - System Temperature
+
+
+[1;36mJohn The Ripper 1.8.0:
+    pts/john-the-ripper-1.5.1 [Test: Traditional DES][0m
+    Test 1 of 3
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 11 Minutes [21:26 PDT]
+        Started Run 1 @ 21:15:25
+        Started Run 2 @ 21:16:25
+        Started Run 3 @ 21:17:28
+
+    Test: Traditional DES:
+        [1;32m292105000[0m
+        274959000
+        [1;31m268697000[0m
+
+    Average: [1;34m278587000 Real C/S[0m
+    Deviation: 4.35%
+
+
+[1;36mJohn The Ripper 1.8.0:
+    pts/john-the-ripper-1.5.1 [Test: MD5][0m
+    Test 2 of 3
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      4 Minutes
+    Estimated Time To Completion: 8 Minutes [21:26 PDT]
+        Started Run 1 @ 21:19:32
+        Started Run 2 @ 21:20:48
+        Started Run 3 @ 21:21:53
+
+    Test: MD5:
+        [1;31m5169[0m
+        5293
+        [1;32m5303[0m
+
+    Average: [1;34m5255 Real C/S[0m
+    Deviation: 1.42%
+
+
+[1;36mJohn The Ripper 1.8.0:
+    pts/john-the-ripper-1.5.1 [Test: Blowfish][0m
+    Test 3 of 3
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 4 Minutes [21:26 PDT]
+        Started Run 1 @ 21:23:13
+        Started Run 2 @ 21:24:25
+        Started Run 3 @ 21:25:41
+
+    Test: Blowfish:
+        [1;32m253[0m
+        [1;31m247[0m
+        252
+
+    Average: [1;34m251 Real C/S[0m
+    Deviation: 1.28%
+
+
+Finishing System Sensor Monitoring Process
+    [1mDo you want to view the text results of the testing (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m

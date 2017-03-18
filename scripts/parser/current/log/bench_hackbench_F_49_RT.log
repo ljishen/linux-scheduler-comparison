@@ -1,0 +1,162 @@
+
+[1;32mPhoronix Test Suite v7.0.0[0m
+[1;32m[0m
+    Installed: ljishen/hackbench-1.0.0
+
+
+Hackbench 1.0:
+    ljishen/hackbench-1.0.0
+    Processor Test Configuration
+        [1m1: [0mPipes
+        [1m2: [0mSockets
+        [1m3: [0mTest All Options
+        [1mCommunication Type: [0m
+
+        [1m1: [0mProcess
+        [1m2: [0mThread
+        [1m3: [0mTest All Options
+        [1mEntity Type: [0m
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mARMv7 rev 4 @ 1.20GHz (4 Cores)[0m
+    [1mScreen[0m:           1280x1024
+
+  [1;30mMOTHERBOARD[0m:        [1;32mBCM2709 Raspberry Pi 3 Model B Rev 1.2[0m
+    [1mMemory[0m:           924MB
+
+  [1;30mDISK[0m:               [1;32m16GB SU16G[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    data=ordered noatime rw
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mRaspbian 8.0[0m
+    [1mKernel[0m:           4.4.50-rt63-v7+ (armv7l)
+    [1mCompiler[0m:         GCC 4.9.2
+
+
+[1mRecently Saved Test Results:[0m
+- scheduler-comparison   [Today]
+
+    Enter a name to save these results under: 
+Current Test Identifiers:
+- SCHED_OTHER and nice=-20
+- SCHED_OTHER and nice=19
+- SCHED_OTHER and nice=19
+- SCHED_OTHER and nice=19
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
+
+    Enter a unique name to describe this test run / configuration: 
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+Current Description: ARMv7 rev 4 testing on Raspbian 8.0 via the Phoronix Test Suite.
+
+New Description: 
+Sensors To Be Logged:
+   - CPU Frequency (CPU0)
+   - CPU Frequency (CPU1)
+   - CPU Frequency (CPU2)
+   - CPU Frequency (CPU3)
+   - CPU Usage (CPU0)
+   - CPU Usage (CPU1)
+   - CPU Usage (CPU2)
+   - CPU Usage (CPU3)
+   - CPU Usage (Summary)
+   - Drive Read Speed (mmcblk0)
+   - Drive Write Speed (mmcblk0)
+   - Memory Usage
+   - Swap Usage
+   - System Iowait
+   - System Temperature
+
+
+[1;36mHackbench 1.0:
+    ljishen/hackbench-1.0.0 [Communication Type: Pipes - Entity Type: Process][0m
+    Test 1 of 4
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 9 Minutes [16:33 PDT]
+        Started Run 1 @ 16:24:54
+        Started Run 2 @ 16:27:13
+        Started Run 3 @ 16:29:32
+
+    Communication Type: Pipes - Entity Type: Process:
+        136.704
+        [1;31m137.126[0m
+        [1;32m135.725[0m
+
+    Average: [1;34m136.52 Seconds[0m
+    Deviation: 0.53%
+
+
+[1;36mHackbench 1.0:
+    ljishen/hackbench-1.0.0 [Communication Type: Pipes - Entity Type: Thread][0m
+    Test 2 of 4
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 7 Minutes [16:38 PDT]
+        Started Run 1 @ 16:32:12
+        Started Run 2 @ 16:38:05
+        Started Run 3 @ 16:43:58
+
+    Communication Type: Pipes - Entity Type: Thread:
+        [1;32m351.165[0m
+        352.424
+        [1;31m352.841[0m
+
+    Average: [1;34m352.14 Seconds[0m
+    Deviation: 0.25%
+
+
+[1;36mHackbench 1.0:
+    ljishen/hackbench-1.0.0 [Communication Type: Sockets - Entity Type: Process][0m
+    Test 3 of 4
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 5 Minutes [16:54 PDT]
+        Started Run 1 @ 16:50:15
+        Started Run 2 @ 16:52:05
+        Started Run 3 @ 16:54:01
+
+    Communication Type: Sockets - Entity Type: Process:
+        [1;32m107.66[0m
+        [1;31m113.329[0m
+        109.629
+
+    Average: [1;34m110.21 Seconds[0m
+    Deviation: 2.61%
+
+
+[1;36mHackbench 1.0:
+    ljishen/hackbench-1.0.0 [Communication Type: Sockets - Entity Type: Thread][0m
+    Test 4 of 4
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 3 Minutes [16:58 PDT]
+        Started Run 1 @ 16:56:15
+        Started Run 2 @ 17:04:22
+        Started Run 3 @ 17:12:26
+
+    Communication Type: Sockets - Entity Type: Thread:
+        [1;31m484.543[0m
+        [1;32m482.782[0m
+        483.516
+
+    Average: [1;34m483.61 Seconds[0m
+    Deviation: 0.18%
+
+
+Finishing System Sensor Monitoring Process
+    [1mDo you want to view the text results of the testing (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m

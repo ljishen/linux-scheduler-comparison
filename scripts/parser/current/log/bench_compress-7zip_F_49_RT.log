@@ -1,0 +1,2000 @@
+
+[1;32mPhoronix Test Suite v7.0.0[0m
+[1;32m[0m
+    Installed: pts/compress-7zip-1.6.2
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mARMv7 rev 4 @ 1.20GHz (4 Cores)[0m
+    [1mScreen[0m:           1280x1024
+
+  [1;30mMOTHERBOARD[0m:        [1;32mBCM2709 Raspberry Pi 3 Model B Rev 1.2[0m
+    [1mMemory[0m:           924MB
+
+  [1;30mDISK[0m:               [1;32m16GB SU16G[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    data=ordered noatime rw
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mRaspbian 8.0[0m
+    [1mKernel[0m:           4.4.50-rt63-v7+ (armv7l)
+    [1mCompiler[0m:         GCC 4.9.2
+
+
+[1mRecently Saved Test Results:[0m
+- scheduler-comparison   [Today]
+
+    Enter a name to save these results under: 
+Current Test Identifiers:
+- SCHED_OTHER and nice=-20
+- SCHED_OTHER and nice=19
+- SCHED_OTHER and nice=19
+- SCHED_OTHER and nice=19
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
+
+    Enter a unique name to describe this test run / configuration: 
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+Current Description: ARMv7 rev 4 testing on Raspbian 8.0 via the Phoronix Test Suite.
+
+New Description: 
+Sensors To Be Logged:
+   - CPU Frequency (CPU0)
+   - CPU Frequency (CPU1)
+   - CPU Frequency (CPU2)
+   - CPU Frequency (CPU3)
+   - CPU Usage (CPU0)
+   - CPU Usage (CPU1)
+   - CPU Usage (CPU2)
+   - CPU Usage (CPU3)
+   - CPU Usage (Summary)
+   - Drive Read Speed (mmcblk0)
+   - Drive Write Speed (mmcblk0)
+   - Memory Usage
+   - Swap Usage
+   - System Iowait
+   - System Temperature
+
+
+[1;36m7-Zip Compression 9.20.1:
+    pts/compress-7zip-1.6.2[0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 10 Minutes [19:33 PDT]
+        Started Run 1 @ 19:23:24
+        Started Run 2 @ 19:27:24
+        Started Run 3 @ 19:31:10
+
+    Compress Speed Test:
+        [1;31m876[0m
+        890
+        [1;32m893[0m
+
+    Average: [1;34m886 MIPS[0m
+    Deviation: 1.02%
+
+
+Finishing System Sensor Monitoring Process
+    [1mDo you want to view the text results of the testing (Y/n): [0mscheduler-comparison
+ARMv7 rev 4 testing on Raspbian 8.0 via the Phoronix Test Suite.
+
+
+SCHED_OTHER and nice=-20: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_OTHER and nice=19: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_OTHER and nice=19: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_OTHER and nice=19: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_IDLEPRIO: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_FIFO and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RR and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_IDLEPRIO: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_FIFO and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RR and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_IDLEPRIO: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_FIFO and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RR and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 925MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RT_FIFO and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 924MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-rt63-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RT_RR and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 924MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-rt63-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RT_FIFO and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 924MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-rt63-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RT_RR and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 924MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-rt63-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RT_FIFO and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 924MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-rt63-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RT_RR and prio=49: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 924MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-rt63-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+SCHED_RT_FIFO and prio=49 qweqwe: 
+
+	Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709 Raspberry Pi 3 Model B Rev 1.2, Memory: 924MB, Disk: 16GB SU16G
+
+	OS: Raspbian 8.0, Kernel: 4.4.50-rt63-v7+ (armv7l), Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1280x1024
+
+Latt 0.1
+Number Clients: 8
+  ms
+    SCHED_OTHER and nice=-20 .......... 276280 |==========================================================================
+    SCHED_OTHER and nice=19 ........... 415823 |===============================================================================================================
+    SCHED_IDLEPRIO .................... 396787 |==========================================================================================================
+    SCHED_FIFO and prio=49 ............ 176421 |===============================================
+    SCHED_RR and prio=49 .............. 337953 |==========================================================================================
+    SCHED_RT_FIFO and prio=49 ......... 255280 |====================================================================
+    SCHED_RT_RR and prio=49 ........... 415600 |===============================================================================================================
+
+Latt 0.1
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1153.85 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1175 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1166.67 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1176.92 / MAX: 1200.00
+
+Latt 0.1
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1153.85 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1175 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1166.67 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1176.92 / MAX: 1200.00
+
+Latt 0.1
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1153.85 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1175 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1166.67 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1176.92 / MAX: 1200.00
+
+Latt 0.1
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1153.85 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1175 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1166.67 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1176.92 / MAX: 1200.00
+
+Latt 0.1
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 58.02 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 67.39 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 65.54 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 73.07 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 68.89 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 2.70 / AVG: 57.8 / MAX: 95.83
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 70.28 / MAX: 100.00
+
+Latt 0.1
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 65.16 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 65.88 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 67.67 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 1.96 / AVG: 53.52 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 62.28 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 13.73 / AVG: 61.01 / MAX: 91.84
+    SCHED_RT_RR and prio=49 ........... MIN: 2.33 / AVG: 61.2 / MAX: 100.00
+
+Latt 0.1
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 61.79 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 71.06 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 70.87 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 48.61 / MAX: 88.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 63.06 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 57.71 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 6.38 / AVG: 68.67 / MAX: 100.00
+
+Latt 0.1
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 61.4 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 64.07 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 67.67 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 48.87 / MAX: 89.80
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 58.56 / MAX: 96.08
+    SCHED_RT_FIFO and prio=49 ......... MIN: 15.22 / AVG: 86.2 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 75.25 / MAX: 100.00
+
+Latt 0.1
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.50 / AVG: 61.83 / MAX: 87.37
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 67.14 / MAX: 94.58
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 68.06 / MAX: 93.91
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 56.02 / MAX: 89.34
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 62.52 / MAX: 97.06
+    SCHED_RT_FIFO and prio=49 ......... MIN: 13.09 / AVG: 66.11 / MAX: 96.45
+    SCHED_RT_RR and prio=49 ........... MIN: 7.53 / AVG: 68.97 / MAX: 100.00
+
+Latt 0.1
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.02 / MAX: 0.08
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.03 / MAX: 0.17
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.03 / MAX: 0.14
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.02 / MAX: 0.07
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.05
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.01 / MAX: 0.08
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.02 / MAX: 0.11
+
+Latt 0.1
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 51 / AVG: 62.65 / MAX: 64
+    SCHED_OTHER and nice=19 ........... MIN: 49 / AVG: 60.25 / MAX: 63
+    SCHED_IDLEPRIO .................... MIN: 50 / AVG: 61.48 / MAX: 63
+    SCHED_FIFO and prio=49 ............ MIN: 50 / AVG: 60.22 / MAX: 62
+    SCHED_RR and prio=49 .............. MIN: 49 / AVG: 60.83 / MAX: 64
+    SCHED_RT_FIFO and prio=49 ......... MIN: 61 / AVG: 71.8 / MAX: 75
+    SCHED_RT_RR and prio=49 ........... MIN: 61 / AVG: 72.73 / MAX: 76
+
+Latt 0.1
+System Iowait Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.25
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.35 / MAX: 5.78
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.02 / MAX: 0.25
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.35 / MAX: 2.26
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 1.06 / MAX: 7.29
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 1.33 / MAX: 21.03
+
+Latt 0.1
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 35.4 / AVG: 38.78 / MAX: 40.8
+    SCHED_OTHER and nice=19 ........... MIN: 33.2 / AVG: 37.1 / MAX: 38.6
+    SCHED_IDLEPRIO .................... MIN: 33.2 / AVG: 36.64 / MAX: 38.6
+    SCHED_FIFO and prio=49 ............ MIN: 33.8 / AVG: 36.46 / MAX: 38.6
+    SCHED_RR and prio=49 .............. MIN: 33.2 / AVG: 36.64 / MAX: 38.1
+    SCHED_RT_FIFO and prio=49 ......... MIN: 38.6 / AVG: 42.18 / MAX: 44.0
+    SCHED_RT_RR and prio=49 ........... MIN: 37.6 / AVG: 42.2 / MAX: 44.0
+
+7-Zip Compression 9.20.1
+Compress Speed Test
+  MIPS
+    SCHED_OTHER and nice=-20 .......... 884  |====================================================================================================
+    SCHED_OTHER and nice=19 ........... 998  |=================================================================================================================
+    SCHED_IDLEPRIO .................... 977  |==============================================================================================================
+    SCHED_FIFO and prio=49 ............ 1001 |=================================================================================================================
+    SCHED_RR and prio=49 .............. 998  |=================================================================================================================
+    SCHED_RT_FIFO and prio=49 qweqwe .. 886  |====================================================================================================
+
+7-Zip Compression 9.20.1
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1198.11 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1197.93 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.92 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+7-Zip Compression 9.20.1
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1198.11 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1197.93 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.92 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+7-Zip Compression 9.20.1
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1198.11 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1197.93 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.92 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+7-Zip Compression 9.20.1
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1198.11 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1197.93 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.92 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+7-Zip Compression 9.20.1
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 73.64 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 66.97 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 69.95 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 72.73 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 78.08 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 0.00 / AVG: 67.59 / MAX: 100.00
+
+7-Zip Compression 9.20.1
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 78.42 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 73.05 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 76.25 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 71.29 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 84.8 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 0.00 / AVG: 77.95 / MAX: 100.00
+
+7-Zip Compression 9.20.1
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 76.4 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 91.03 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 82.33 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 72.91 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 68.56 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 0.00 / AVG: 82.35 / MAX: 100.00
+
+7-Zip Compression 9.20.1
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 75.21 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 88.64 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 84.77 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 70.98 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 81.89 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 2.22 / AVG: 93.19 / MAX: 100.00
+
+7-Zip Compression 9.20.1
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 76.03 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 80.1 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 78.57 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 1.01 / AVG: 72.27 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.50 / AVG: 78.71 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 9.79 / AVG: 80.46 / MAX: 100.00
+
+7-Zip Compression 9.20.1
+Drive Read Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.02 / MAX: 4.97
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.07 / MAX: 7.96
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.04 / MAX: 4.31
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.03 / MAX: 3.04
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0 / MAX: 0.15
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 0.00 / AVG: 0 / MAX: 0.14
+
+7-Zip Compression 9.20.1
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 1.51
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.50
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.17
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.02 / MAX: 3.07
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 0.00 / AVG: 0.02 / MAX: 1.33
+
+7-Zip Compression 9.20.1
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 50 / AVG: 328.99 / MAX: 858
+    SCHED_OTHER and nice=19 ........... MIN: 49 / AVG: 339.86 / MAX: 861
+    SCHED_IDLEPRIO .................... MIN: 50 / AVG: 332.57 / MAX: 858
+    SCHED_FIFO and prio=49 ............ MIN: 45 / AVG: 388.18 / MAX: 854
+    SCHED_RR and prio=49 .............. MIN: 43 / AVG: 324.76 / MAX: 852
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 58 / AVG: 375.29 / MAX: 869
+
+7-Zip Compression 9.20.1
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 2 / AVG: 3.82 / MAX: 4
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 37.86 / MAX: 63
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 30.61 / MAX: 36
+    SCHED_FIFO and prio=49 ............ MIN: 36 / AVG: 40.07 / MAX: 42
+    SCHED_RR and prio=49 .............. MIN: 42 / AVG: 44.13 / MAX: 46
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 1 / AVG: 51.47 / MAX: 56
+
+7-Zip Compression 9.20.1
+System Iowait Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.14 / MAX: 6.60
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.08 / MAX: 5.81
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.11 / MAX: 8.73
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.12 / MAX: 7.52
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.02 / MAX: 0.50
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 0.00 / AVG: 0.36 / MAX: 14.21
+
+7-Zip Compression 9.20.1
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 35.4 / AVG: 41.04 / MAX: 42.9
+    SCHED_OTHER and nice=19 ........... MIN: 32.7 / AVG: 39.71 / MAX: 41.9
+    SCHED_IDLEPRIO .................... MIN: 34.3 / AVG: 40.95 / MAX: 43.5
+    SCHED_FIFO and prio=49 ............ MIN: 34.9 / AVG: 40.84 / MAX: 42.9
+    SCHED_RR and prio=49 .............. MIN: 34.9 / AVG: 41.08 / MAX: 42.9
+    SCHED_RT_FIFO and prio=49 qweqwe .. MIN: 35.9 / AVG: 42.82 / MAX: 44.0
+
+Hackbench 1.0
+Communication Type: Pipes - Entity Type: Process
+  Seconds
+    SCHED_OTHER and nice=-20 .......... 48.05  |=======================================
+    SCHED_OTHER and nice=19 ........... 23.14  |===================
+    SCHED_IDLEPRIO .................... 21.99  |==================
+    SCHED_FIFO and prio=49 ............ 20.46  |=================
+    SCHED_RR and prio=49 .............. 20.73  |=================
+    SCHED_RT_FIFO and prio=49 ......... 136.52 |===============================================================================================================
+    SCHED_RT_RR and prio=49 ........... 126.09 |=======================================================================================================
+
+Hackbench 1.0
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1181.25 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1181.25 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1181.25 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1181.25 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 95.59 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 91.24 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 91.86 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 88.68 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 89.56 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 10.64 / AVG: 95 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 13.04 / AVG: 95.34 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 95.08 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 91.31 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 91.51 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 86.9 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 92.19 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 23.53 / AVG: 94.86 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 94.97 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 95.46 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 90.91 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 93.61 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 90.86 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 91.09 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 12.00 / AVG: 94.98 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 2.08 / AVG: 94.43 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 96.4 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 92.13 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 93.17 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 86.07 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 2.00 / AVG: 88.66 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 9.80 / AVG: 95.85 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 14.00 / AVG: 95.57 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 95.82 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 92.43 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 91.81 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 87.2 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.50 / AVG: 87.52 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 14.14 / AVG: 95.39 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 10.88 / AVG: 95.22 / MAX: 100.00
+
+Hackbench 1.0
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.14
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.05
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.05
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.06
+
+Hackbench 1.0
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 44 / AVG: 163.89 / MAX: 253
+    SCHED_OTHER and nice=19 ........... MIN: 47 / AVG: 190.7 / MAX: 227
+    SCHED_IDLEPRIO .................... MIN: 48 / AVG: 189.53 / MAX: 230
+    SCHED_FIFO and prio=49 ............ MIN: 49 / AVG: 193.88 / MAX: 249
+    SCHED_RR and prio=49 .............. MIN: 49 / AVG: 190.06 / MAX: 254
+    SCHED_RT_FIFO and prio=49 ......... MIN: 58 / AVG: 218.48 / MAX: 236
+    SCHED_RT_RR and prio=49 ........... MIN: 64 / AVG: 226.67 / MAX: 240
+
+Hackbench 1.0
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 14 / AVG: 14 / MAX: 14
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_FIFO and prio=49 ............ MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_RR and prio=49 .............. MIN: 26 / AVG: 26 / MAX: 26
+
+Hackbench 1.0
+System Iowait Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.25
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.17 / MAX: 3.21
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.19 / MAX: 3.27
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.27 / MAX: 2.28
+
+Hackbench 1.0
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 32.2 / AVG: 39.83 / MAX: 41.9
+    SCHED_OTHER and nice=19 ........... MIN: 33.2 / AVG: 39.71 / MAX: 41.9
+    SCHED_IDLEPRIO .................... MIN: 33.2 / AVG: 39.74 / MAX: 41.9
+    SCHED_FIFO and prio=49 ............ MIN: 34.3 / AVG: 39.3 / MAX: 41.3
+    SCHED_RR and prio=49 .............. MIN: 33.8 / AVG: 39.4 / MAX: 41.3
+    SCHED_RT_FIFO and prio=49 ......... MIN: 38.6 / AVG: 46.38 / MAX: 47.8
+    SCHED_RT_RR and prio=49 ........... MIN: 37.6 / AVG: 44.99 / MAX: 46.7
+
+Hackbench 1.0
+Communication Type: Pipes - Entity Type: Thread
+  Seconds
+    SCHED_OTHER and nice=-20 .......... 45.12  |==============
+    SCHED_OTHER and nice=19 ........... 23.98  |========
+    SCHED_IDLEPRIO .................... 23.19  |=======
+    SCHED_FIFO and prio=49 ............ 21.75  |=======
+    SCHED_RR and prio=49 .............. 21.87  |=======
+    SCHED_RT_FIFO and prio=49 ......... 352.14 |===============================================================================================================
+    SCHED_RT_RR and prio=49 ........... 333.77 |=========================================================================================================
+
+Hackbench 1.0
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1181.82 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1182.35 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1198.87 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1198.8 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1181.82 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1182.35 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1198.87 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1198.8 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1181.82 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1182.35 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1198.87 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1198.8 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1190.16 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1181.82 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1182.35 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1198.87 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1198.8 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 2.00 / AVG: 97.39 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 2.04 / AVG: 91.08 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 18.75 / AVG: 94.44 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 89.01 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 87.6 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 83.33 / MAX: 93.75
+    SCHED_RT_RR and prio=49 ........... MIN: 2.33 / AVG: 83.24 / MAX: 93.75
+
+Hackbench 1.0
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 8.33 / AVG: 96.67 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 92.35 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 90.2 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 92.68 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 82.65 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 77.72 / MAX: 92.16
+    SCHED_RT_RR and prio=49 ........... MIN: 10.20 / AVG: 77.05 / MAX: 91.30
+
+Hackbench 1.0
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 2.00 / AVG: 96.83 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 90.07 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 91.9 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 91.02 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 81.84 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 13.73 / AVG: 75.54 / MAX: 92.16
+    SCHED_RT_RR and prio=49 ........... MIN: 6.52 / AVG: 75.24 / MAX: 87.27
+
+Hackbench 1.0
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 96.35 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 96.77 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 92.47 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 4.00 / AVG: 92.98 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 5.88 / AVG: 85.24 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 72.96 / MAX: 92.59
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 72.17 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 2.53 / AVG: 97.06 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 1.52 / AVG: 91.82 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.50 / AVG: 95.72 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 17.50 / AVG: 88.31 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.50 / AVG: 85.06 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 15.58 / AVG: 77.58 / MAX: 87.44
+    SCHED_RT_RR and prio=49 ........... MIN: 10.82 / AVG: 76.84 / MAX: 84.49
+
+Hackbench 1.0
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.11
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.04
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.07
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.07
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.01 / MAX: 0.08
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.11
+
+Hackbench 1.0
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 46 / AVG: 79.77 / MAX: 92
+    SCHED_OTHER and nice=19 ........... MIN: 49 / AVG: 84.03 / MAX: 103
+    SCHED_IDLEPRIO .................... MIN: 50 / AVG: 86.77 / MAX: 96
+    SCHED_FIFO and prio=49 ............ MIN: 50 / AVG: 95.76 / MAX: 112
+    SCHED_RR and prio=49 .............. MIN: 51 / AVG: 94.38 / MAX: 115
+    SCHED_RT_FIFO and prio=49 ......... MIN: 61 / AVG: 96.97 / MAX: 100
+    SCHED_RT_RR and prio=49 ........... MIN: 66 / AVG: 102.46 / MAX: 106
+
+Hackbench 1.0
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 14 / AVG: 14 / MAX: 14
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_FIFO and prio=49 ............ MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_RR and prio=49 .............. MIN: 26 / AVG: 26 / MAX: 26
+
+Hackbench 1.0
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 35.4 / AVG: 40.75 / MAX: 41.9
+    SCHED_OTHER and nice=19 ........... MIN: 36.5 / AVG: 40.64 / MAX: 42.4
+    SCHED_IDLEPRIO .................... MIN: 35.9 / AVG: 40.69 / MAX: 42.4
+    SCHED_FIFO and prio=49 ............ MIN: 35.9 / AVG: 40.49 / MAX: 42.4
+    SCHED_RR and prio=49 .............. MIN: 35.4 / AVG: 40.24 / MAX: 41.9
+    SCHED_RT_FIFO and prio=49 ......... MIN: 42.9 / AVG: 46.54 / MAX: 47.8
+    SCHED_RT_RR and prio=49 ........... MIN: 41.3 / AVG: 45.1 / MAX: 46.2
+
+Hackbench 1.0
+Communication Type: Sockets - Entity Type: Process
+  Seconds
+    SCHED_OTHER and nice=-20 .......... 45.14  |=============================================
+    SCHED_OTHER and nice=19 ........... 37.28  |======================================
+    SCHED_IDLEPRIO .................... 36.67  |=====================================
+    SCHED_FIFO and prio=49 ............ 36.13  |====================================
+    SCHED_RR and prio=49 .............. 36.54  |=====================================
+    SCHED_RT_FIFO and prio=49 ......... 110.21 |===============================================================================================================
+    SCHED_RT_RR and prio=49 ........... 105.53 |==========================================================================================================
+
+Hackbench 1.0
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1188.68 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1188.46 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1193.75 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1194.29 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1188.68 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1188.46 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1193.75 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1194.29 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1188.89 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1188.46 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1193.75 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1194.29 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1188.89 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1177.78 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1188.46 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1176 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1193.75 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1194.29 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 3.92 / AVG: 94.09 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 4.00 / AVG: 93.74 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 93.38 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 4.00 / AVG: 91.54 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 4.08 / AVG: 92.25 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 93.99 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 7.32 / AVG: 93.52 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 95.19 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 3.85 / AVG: 96.26 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 94.04 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 91.97 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 91.64 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 93.12 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 92.51 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 1.96 / AVG: 94.45 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 94.41 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 93.79 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 91.12 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 1.96 / AVG: 90.7 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 4.35 / AVG: 93.82 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 93.45 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 6.00 / AVG: 95.94 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 95.24 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 8.00 / AVG: 96.87 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 87.49 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 1.96 / AVG: 88.17 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 94.14 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 4.26 / AVG: 94.45 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 2.45 / AVG: 94.67 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 93.51 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 93.36 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 11.44 / AVG: 91.07 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 3.47 / AVG: 91.84 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 16.29 / AVG: 93.99 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 2.82 / AVG: 94.49 / MAX: 100.00
+
+Hackbench 1.0
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.13
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.08
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.07
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.08
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.02 / MAX: 0.09
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.01 / MAX: 0.05
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.05
+
+Hackbench 1.0
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 46 / AVG: 155.81 / MAX: 216
+    SCHED_OTHER and nice=19 ........... MIN: 50 / AVG: 198.33 / MAX: 219
+    SCHED_IDLEPRIO .................... MIN: 50 / AVG: 191.07 / MAX: 220
+    SCHED_FIFO and prio=49 ............ MIN: 51 / AVG: 175.35 / MAX: 219
+    SCHED_RR and prio=49 .............. MIN: 51 / AVG: 172.94 / MAX: 219
+    SCHED_RT_FIFO and prio=49 ......... MIN: 61 / AVG: 201.25 / MAX: 231
+    SCHED_RT_RR and prio=49 ........... MIN: 66 / AVG: 211.25 / MAX: 237
+
+Hackbench 1.0
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 14 / AVG: 14 / MAX: 14
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_FIFO and prio=49 ............ MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_RR and prio=49 .............. MIN: 26 / AVG: 26 / MAX: 26
+
+Hackbench 1.0
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 35.4 / AVG: 40.83 / MAX: 41.9
+    SCHED_OTHER and nice=19 ........... MIN: 35.9 / AVG: 41.6 / MAX: 43.5
+    SCHED_IDLEPRIO .................... MIN: 35.9 / AVG: 41.4 / MAX: 42.9
+    SCHED_FIFO and prio=49 ............ MIN: 36.5 / AVG: 41.45 / MAX: 42.9
+    SCHED_RR and prio=49 .............. MIN: 35.9 / AVG: 40.78 / MAX: 42.4
+    SCHED_RT_FIFO and prio=49 ......... MIN: 42.4 / AVG: 47.04 / MAX: 48.3
+    SCHED_RT_RR and prio=49 ........... MIN: 40.8 / AVG: 45.28 / MAX: 46.2
+
+Hackbench 1.0
+Communication Type: Sockets - Entity Type: Thread
+  Seconds
+    SCHED_OTHER and nice=-20 .......... 44.70  |==========
+    SCHED_OTHER and nice=19 ........... 38.75  |=========
+    SCHED_IDLEPRIO .................... 38.25  |=========
+    SCHED_FIFO and prio=49 ............ 37.04  |=========
+    SCHED_RR and prio=49 .............. 37.02  |========
+    SCHED_RT_FIFO and prio=49 ......... 483.61 |===============================================================================================================
+    SCHED_RT_RR and prio=49 ........... 459.44 |=========================================================================================================
+
+Hackbench 1.0
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1177.36 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1189.09 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.17 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1177.36 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1189.09 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.17 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1177.36 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1189.09 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.17 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1180.65 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1177.36 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1189.09 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.17 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+
+Hackbench 1.0
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 6.38 / AVG: 96.8 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 4.00 / AVG: 96 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 95.12 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 91.95 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 91.05 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 73.45 / MAX: 80.00
+    SCHED_RT_RR and prio=49 ........... MIN: 11.11 / AVG: 73.78 / MAX: 79.59
+
+Hackbench 1.0
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 4.00 / AVG: 98.22 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 24.49 / AVG: 95.97 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 96.77 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 90.78 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 89.51 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 66.51 / MAX: 83.67
+    SCHED_RT_RR and prio=49 ........... MIN: 8.16 / AVG: 67.35 / MAX: 100.00
+
+Hackbench 1.0
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 7.84 / AVG: 96.7 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 2.04 / AVG: 96.44 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 93.75 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 2.00 / AVG: 91.94 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 89.65 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 6.82 / AVG: 60.56 / MAX: 88.10
+    SCHED_RT_RR and prio=49 ........... MIN: 10.64 / AVG: 61.32 / MAX: 95.00
+
+Hackbench 1.0
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 37.50 / AVG: 97.38 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 1.96 / AVG: 93.23 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 93.66 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 91.75 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 2.00 / AVG: 91.5 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 6.52 / AVG: 50.22 / MAX: 92.31
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 48.65 / MAX: 85.71
+
+Hackbench 1.0
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 3.50 / AVG: 96.2 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 2.99 / AVG: 95.09 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 1.49 / AVG: 92.56 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 3.98 / AVG: 92.76 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.50 / AVG: 89.86 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 24.04 / AVG: 62.57 / MAX: 71.28
+    SCHED_RT_RR and prio=49 ........... MIN: 6.63 / AVG: 62.72 / MAX: 80.45
+
+Hackbench 1.0
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.13
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.06
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.10
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.07
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.01 / MAX: 0.12
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.14
+
+Hackbench 1.0
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 46 / AVG: 72.9 / MAX: 79
+    SCHED_OTHER and nice=19 ........... MIN: 50 / AVG: 77.65 / MAX: 82
+    SCHED_IDLEPRIO .................... MIN: 50 / AVG: 78.13 / MAX: 82
+    SCHED_FIFO and prio=49 ............ MIN: 51 / AVG: 77.51 / MAX: 83
+    SCHED_RR and prio=49 .............. MIN: 51 / AVG: 78.43 / MAX: 84
+    SCHED_RT_FIFO and prio=49 ......... MIN: 61 / AVG: 92.34 / MAX: 95
+    SCHED_RT_RR and prio=49 ........... MIN: 67 / AVG: 97.82 / MAX: 100
+
+Hackbench 1.0
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 14 / AVG: 14 / MAX: 14
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_FIFO and prio=49 ............ MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_RR and prio=49 .............. MIN: 26 / AVG: 26 / MAX: 26
+
+Hackbench 1.0
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 35.9 / AVG: 40.87 / MAX: 41.9
+    SCHED_OTHER and nice=19 ........... MIN: 36.5 / AVG: 41.57 / MAX: 42.9
+    SCHED_IDLEPRIO .................... MIN: 36.5 / AVG: 41.61 / MAX: 42.9
+    SCHED_FIFO and prio=49 ............ MIN: 36.5 / AVG: 41.33 / MAX: 42.9
+    SCHED_RR and prio=49 .............. MIN: 36.5 / AVG: 41.22 / MAX: 42.9
+    SCHED_RT_FIFO and prio=49 ......... MIN: 42.9 / AVG: 45.16 / MAX: 46.7
+    SCHED_RT_RR and prio=49 ........... MIN: 40.8 / AVG: 43.84 / MAX: 45.1
+
+CPU Frequency (CPU0) Monitor 
+Phoronix Test Suite System Monitoring
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1136.12 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160.14 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1156.1 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1101.96 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1089.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1122.12 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1117.54 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1150.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1143.5 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1156.68 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1190.57 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1190.53 / MAX: 1200.00
+
+CPU Frequency (CPU1) Monitor 
+Phoronix Test Suite System Monitoring
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1136.12 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160.14 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1156.1 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1101.96 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1089.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1122.12 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1117.54 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1150.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1143.5 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1156.68 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1190.57 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1190.53 / MAX: 1200.00
+
+CPU Frequency (CPU2) Monitor 
+Phoronix Test Suite System Monitoring
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1136.12 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160.14 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1156.1 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1101.96 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1089.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1122.12 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1117.54 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1150.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1143.5 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1156.68 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1190.57 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1190.53 / MAX: 1200.00
+
+CPU Frequency (CPU3) Monitor 
+Phoronix Test Suite System Monitoring
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1136.12 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1160.14 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1156.1 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1101.96 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1089.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1122.12 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1117.54 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1150.17 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1143.5 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1156.68 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1190.57 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1190.53 / MAX: 1200.00
+
+CPU Usage (CPU0) Monitor 
+Phoronix Test Suite System Monitoring
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 85.01 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 69.14 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 67.31 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 79.02 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 79.04 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 74.57 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 74.15 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 69.05 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 52.56 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 70.19 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 79.12 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 79.08 / MAX: 100.00
+
+CPU Usage (CPU1) Monitor 
+Phoronix Test Suite System Monitoring
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 85.22 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 68.78 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 70.79 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 79.27 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 78.71 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 73.85 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 73.12 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 73.6 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 61.39 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 62.97 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 73.93 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 73.99 / MAX: 100.00
+
+CPU Usage (CPU2) Monitor 
+Phoronix Test Suite System Monitoring
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 85.14 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 71.84 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 73.11 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 79.17 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 78.45 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 74.18 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 72.63 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 69.98 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 67.69 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 66.14 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 70.52 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 70.44 / MAX: 100.00
+
+CPU Usage (CPU3) Monitor 
+Phoronix Test Suite System Monitoring
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 85.5 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 69.04 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 71.51 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 79.05 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 79.04 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 73.04 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 73.1 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 65.02 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 57.77 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 69.18 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 65.1 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 63.82 / MAX: 100.00
+
+CPU Usage (Summary) Monitor 
+Phoronix Test Suite System Monitoring
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 85.01 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 69.71 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 70.6 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 78.56 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 78.39 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 73.75 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 73.74 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 69.51 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 60.68 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 67.69 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 72.14 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 71.88 / MAX: 100.00
+
+Drive Write Speed (mmcblk0) Monitor 
+Phoronix Test Suite System Monitoring
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.18
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.42
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.44
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.02 / MAX: 0.50
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.02 / MAX: 0.55
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.02 / MAX: 0.59
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.02 / MAX: 0.67
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.89
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.02 / MAX: 0.92
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.02 / MAX: 0.97
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.01 / MAX: 1.06
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.01 / MAX: 1.30
+
+Memory Usage Monitor 
+Phoronix Test Suite System Monitoring
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 43 / AVG: 108.74 / MAX: 253
+    SCHED_OTHER and nice=19 ........... MIN: 44 / AVG: 49.73 / MAX: 52
+    SCHED_OTHER and nice=-20 .......... MIN: 45 / AVG: 50.4 / MAX: 53
+    SCHED_OTHER and nice=19 ........... MIN: 44 / AVG: 113.2 / MAX: 227
+    SCHED_IDLEPRIO .................... MIN: 45 / AVG: 113.69 / MAX: 230
+    SCHED_FIFO and prio=49 ............ MIN: 46 / AVG: 117.83 / MAX: 249
+    SCHED_RR and prio=49 .............. MIN: 46 / AVG: 115.22 / MAX: 254
+    SCHED_IDLEPRIO .................... MIN: 37 / AVG: 45.03 / MAX: 47
+    SCHED_FIFO and prio=49 ............ MIN: 38 / AVG: 46.15 / MAX: 49
+    SCHED_RR and prio=49 .............. MIN: 39 / AVG: 46.38 / MAX: 49
+    SCHED_RT_FIFO and prio=49 ......... MIN: 54 / AVG: 115.83 / MAX: 236
+    SCHED_RT_RR and prio=49 ........... MIN: 59 / AVG: 122.24 / MAX: 240
+
+System Iowait Monitor 
+Phoronix Test Suite System Monitoring
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0 / MAX: 0.50
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.14 / MAX: 17.84
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.22 / MAX: 40.60
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.50
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.16 / MAX: 22.36
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.13 / MAX: 3.21
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.2 / MAX: 9.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 1.75
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.1 / MAX: 4.55
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.28 / MAX: 36.02
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.16 / MAX: 16.52
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.14 / MAX: 4.85
+
+System Temperature Monitor 
+Phoronix Test Suite System Monitoring
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 32.2 / AVG: 40.03 / MAX: 41.9
+    SCHED_OTHER and nice=19 ........... MIN: 33.2 / AVG: 40.9 / MAX: 43.5
+    SCHED_OTHER and nice=-20 .......... MIN: 33.2 / AVG: 40.85 / MAX: 43.5
+    SCHED_OTHER and nice=19 ........... MIN: 33.2 / AVG: 40.17 / MAX: 43.5
+    SCHED_IDLEPRIO .................... MIN: 33.2 / AVG: 40.1 / MAX: 42.9
+    SCHED_FIFO and prio=49 ............ MIN: 33.2 / AVG: 40.27 / MAX: 42.9
+    SCHED_RR and prio=49 .............. MIN: 33.2 / AVG: 40 / MAX: 42.9
+    SCHED_IDLEPRIO .................... MIN: 34.3 / AVG: 41.96 / MAX: 44.5
+    SCHED_FIFO and prio=49 ............ MIN: 34.3 / AVG: 41.33 / MAX: 44.0
+    SCHED_RR and prio=49 .............. MIN: 34.3 / AVG: 41.77 / MAX: 44.5
+    SCHED_RT_FIFO and prio=49 ......... MIN: 38.6 / AVG: 45.85 / MAX: 48.3
+    SCHED_RT_RR and prio=49 ........... MIN: 37.0 / AVG: 44.44 / MAX: 46.7
+
+FFmpeg 2.8.1
+H.264 HD To NTSC DV
+  Seconds
+    SCHED_OTHER and nice=-20 .......... 476.10 |================================================================================================
+    SCHED_OTHER and nice=19 ........... 461.45 |=============================================================================================
+    SCHED_IDLEPRIO .................... 441.65 |=========================================================================================
+    SCHED_FIFO and prio=49 ............ 446.83 |==========================================================================================
+    SCHED_RR and prio=49 .............. 446.10 |==========================================================================================
+    SCHED_RT_FIFO and prio=49 ......... 514.60 |=======================================================================================================
+    SCHED_RT_RR and prio=49 ........... 552.51 |===============================================================================================================
+
+FFmpeg 2.8.1
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1196.63 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.28 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1199.1 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1198.2 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.22 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.27 / MAX: 1200.00
+
+FFmpeg 2.8.1
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1196.63 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.28 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1198.21 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1198.2 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.22 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.27 / MAX: 1200.00
+
+FFmpeg 2.8.1
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1196.63 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.28 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1198.21 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1198.2 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.22 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.27 / MAX: 1200.00
+
+FFmpeg 2.8.1
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1196.63 / MAX: 1200.00
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1199.13 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1197.28 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1198.21 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1198.2 / MAX: 1200.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 600.00 / AVG: 1199.22 / MAX: 1200.00
+    SCHED_RT_RR and prio=49 ........... MIN: 600.00 / AVG: 1199.27 / MAX: 1200.00
+
+FFmpeg 2.8.1
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 39.52 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 35.99 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 39.21 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 31.79 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 30.99 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 28.67 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 4.76 / AVG: 65.84 / MAX: 100.00
+
+FFmpeg 2.8.1
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 38.57 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 45.31 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 36.07 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 32.13 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 34.77 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 49.96 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 12.24 / MAX: 75.00
+
+FFmpeg 2.8.1
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 40.06 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 35 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 44.22 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 38.42 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 42.09 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 51.34 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 2.17 / AVG: 50.96 / MAX: 100.00
+
+FFmpeg 2.8.1
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 37.33 / MAX: 100.00
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 42.25 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 39.19 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 61.83 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 56.1 / MAX: 100.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 65.71 / MAX: 100.00
+    SCHED_RT_RR and prio=49 ........... MIN: 2.17 / AVG: 54.25 / MAX: 100.00
+
+FFmpeg 2.8.1
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.50 / AVG: 38.85 / MAX: 74.74
+    SCHED_OTHER and nice=19 ........... MIN: 1.00 / AVG: 39.78 / MAX: 80.30
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 39.69 / MAX: 59.20
+    SCHED_FIFO and prio=49 ............ MIN: 0.50 / AVG: 41.03 / MAX: 85.35
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 41.2 / MAX: 85.22
+    SCHED_RT_FIFO and prio=49 ......... MIN: 2.25 / AVG: 50.05 / MAX: 94.37
+    SCHED_RT_RR and prio=49 ........... MIN: 5.56 / AVG: 46.58 / MAX: 76.56
+
+FFmpeg 2.8.1
+Drive Read Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.19 / MAX: 1.38
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0 / MAX: 0.03
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.21 / MAX: 1.38
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.21 / MAX: 8.96
+
+FFmpeg 2.8.1
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.19
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.10
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.12
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.14
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.01 / MAX: 0.16
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.11
+
+FFmpeg 2.8.1
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 77 / AVG: 134.66 / MAX: 143
+    SCHED_OTHER and nice=19 ........... MIN: 82 / AVG: 136.49 / MAX: 143
+    SCHED_IDLEPRIO .................... MIN: 50 / AVG: 107.34 / MAX: 115
+    SCHED_FIFO and prio=49 ............ MIN: 50 / AVG: 107.88 / MAX: 115
+    SCHED_RR and prio=49 .............. MIN: 50 / AVG: 108.13 / MAX: 116
+    SCHED_RT_FIFO and prio=49 ......... MIN: 56 / AVG: 115.12 / MAX: 124
+    SCHED_RT_RR and prio=49 ........... MIN: 58 / AVG: 115.85 / MAX: 123
+
+FFmpeg 2.8.1
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=-20 .......... MIN: 74 / AVG: 74 / MAX: 74
+    SCHED_OTHER and nice=19 ........... MIN: 73 / AVG: 73 / MAX: 73
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_FIFO and prio=49 ............ MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_RR and prio=49 .............. MIN: 26 / AVG: 26 / MAX: 26
+
+FFmpeg 2.8.1
+System Iowait Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.05 / MAX: 0.76
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.04 / MAX: 12.09
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.05 / MAX: 0.75
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.03 / MAX: 1.49
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.3 / MAX: 42.68
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.35 / MAX: 16.40
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.13 / MAX: 16.15
+
+FFmpeg 2.8.1
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=-20 .......... MIN: 32.2 / AVG: 35.5 / MAX: 36.5
+    SCHED_OTHER and nice=19 ........... MIN: 31.1 / AVG: 35.42 / MAX: 36.5
+    SCHED_IDLEPRIO .................... MIN: 34.3 / AVG: 37.46 / MAX: 39.7
+    SCHED_FIFO and prio=49 ............ MIN: 33.2 / AVG: 37.88 / MAX: 39.7
+    SCHED_RR and prio=49 .............. MIN: 33.8 / AVG: 37.96 / MAX: 39.2
+    SCHED_RT_FIFO and prio=49 ......... MIN: 38.6 / AVG: 43.66 / MAX: 45.1
+    SCHED_RT_RR and prio=49 ........... MIN: 38.6 / AVG: 42.84 / MAX: 44.5
+
+John The Ripper 1.8.0
+Test: Traditional DES
+  Real C/S
+    SCHED_OTHER and nice=19 ........... 367393667 |==========================================================================================================
+    SCHED_OTHER and nice=-20 .......... 372189667 |===========================================================================================================
+    SCHED_IDLEPRIO .................... 374945667 |============================================================================================================
+    SCHED_FIFO and prio=49 ............ 369234667 |==========================================================================================================
+    SCHED_RR and prio=49 .............. 365182000 |=========================================================================================================
+
+John The Ripper 1.8.0
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1186.05 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.91 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1192.68 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1186.05 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.91 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1192.68 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1186.05 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.91 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1192.68 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 1200.00 / AVG: 1200 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1186.05 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.91 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1192.68 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 78.73 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 73.54 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 77.22 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 59.28 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 75.49 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 74.33 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 82.76 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 79.81 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 71.09 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 66.65 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 73.97 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 81.62 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 78.31 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 81.86 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 66.87 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 78.59 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 70.14 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 72.36 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 58.17 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 84.99 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 76.43 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 77.02 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 76.94 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.50 / AVG: 66.27 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 75.43 / MAX: 100.00
+
+John The Ripper 1.8.0
+Drive Read Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.43
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.29
+
+John The Ripper 1.8.0
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.14
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.13
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.10
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.02 / MAX: 0.08
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.08
+
+John The Ripper 1.8.0
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 47 / AVG: 49.73 / MAX: 51
+    SCHED_OTHER and nice=-20 .......... MIN: 47 / AVG: 50.35 / MAX: 52
+    SCHED_IDLEPRIO .................... MIN: 41 / AVG: 44.76 / MAX: 47
+    SCHED_FIFO and prio=49 ............ MIN: 43 / AVG: 45.86 / MAX: 48
+    SCHED_RR and prio=49 .............. MIN: 43 / AVG: 45.98 / MAX: 48
+
+John The Ripper 1.8.0
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_OTHER and nice=-20 .......... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_FIFO and prio=49 ............ MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_RR and prio=49 .............. MIN: 45 / AVG: 45.82 / MAX: 46
+
+John The Ripper 1.8.0
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=19 ........... MIN: 33.2 / AVG: 40.74 / MAX: 43.5
+    SCHED_OTHER and nice=-20 .......... MIN: 33.2 / AVG: 40.42 / MAX: 42.9
+    SCHED_IDLEPRIO .................... MIN: 34.9 / AVG: 41.87 / MAX: 44.5
+    SCHED_FIFO and prio=49 ............ MIN: 34.9 / AVG: 41.25 / MAX: 43.5
+    SCHED_RR and prio=49 .............. MIN: 35.4 / AVG: 41.7 / MAX: 44.0
+
+John The Ripper 1.8.0
+Test: MD5
+  Real C/S
+    SCHED_OTHER and nice=19 ........... 6635 |================================================================================================================
+    SCHED_OTHER and nice=-20 .......... 6704 |=================================================================================================================
+    SCHED_IDLEPRIO .................... 6705 |=================================================================================================================
+    SCHED_FIFO and prio=49 ............ 6442 |=============================================================================================================
+    SCHED_RR and prio=49 .............. 6510 |==============================================================================================================
+
+John The Ripper 1.8.0
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.54 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.1 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.54 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.1 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.54 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.1 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.54 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 76.63 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 74.76 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 78.96 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 61.02 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 77.91 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 73.96 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 76.32 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 76.75 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 74.3 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 75.11 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 85.05 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 82.39 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 81.44 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 81.43 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 76.89 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 73.41 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 76.83 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 72.89 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 61.41 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 71.17 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 77.36 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 1.51 / AVG: 78.61 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 2.01 / AVG: 77.54 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.51 / AVG: 69.36 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 1.50 / AVG: 74.99 / MAX: 100.00
+
+John The Ripper 1.8.0
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.11
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.11
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.13
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+
+John The Ripper 1.8.0
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 48 / AVG: 49.99 / MAX: 51
+    SCHED_OTHER and nice=-20 .......... MIN: 48 / AVG: 50.62 / MAX: 53
+    SCHED_IDLEPRIO .................... MIN: 43 / AVG: 45.45 / MAX: 47
+    SCHED_FIFO and prio=49 ............ MIN: 45 / AVG: 46.72 / MAX: 49
+    SCHED_RR and prio=49 .............. MIN: 45 / AVG: 46.73 / MAX: 49
+
+John The Ripper 1.8.0
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_OTHER and nice=-20 .......... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_FIFO and prio=49 ............ MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_RR and prio=49 .............. MIN: 45 / AVG: 45 / MAX: 45
+
+John The Ripper 1.8.0
+System Iowait Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.31 / MAX: 17.84
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.7 / MAX: 40.60
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.03 / MAX: 0.50
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.07 / MAX: 2.99
+
+John The Ripper 1.8.0
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=19 ........... MIN: 35.9 / AVG: 41.51 / MAX: 42.9
+    SCHED_OTHER and nice=-20 .......... MIN: 36.5 / AVG: 41.62 / MAX: 43.5
+    SCHED_IDLEPRIO .................... MIN: 37.0 / AVG: 42.66 / MAX: 44.5
+    SCHED_FIFO and prio=49 ............ MIN: 37.0 / AVG: 41.93 / MAX: 44.0
+    SCHED_RR and prio=49 .............. MIN: 37.0 / AVG: 42.19 / MAX: 44.5
+
+John The Ripper 1.8.0
+Test: Blowfish
+  Real C/S
+    SCHED_OTHER and nice=19 ........... 318 |==================================================================================================================
+    SCHED_OTHER and nice=-20 .......... 318 |==================================================================================================================
+    SCHED_IDLEPRIO .................... 318 |==================================================================================================================
+    SCHED_FIFO and prio=49 ............ 312 |================================================================================================================
+    SCHED_RR and prio=49 .............. 312 |================================================================================================================
+
+John The Ripper 1.8.0
+CPU Frequency (CPU0) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.1 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.26 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.71 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU1) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.1 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.26 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.71 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU2) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.1 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.26 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.71 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Frequency (CPU3) Monitor
+  Megahertz
+    SCHED_OTHER and nice=19 ........... MIN: 600.00 / AVG: 1193.02 / MAX: 1200.00
+    SCHED_OTHER and nice=-20 .......... MIN: 600.00 / AVG: 1193.1 / MAX: 1200.00
+    SCHED_IDLEPRIO .................... MIN: 600.00 / AVG: 1193.26 / MAX: 1200.00
+    SCHED_FIFO and prio=49 ............ MIN: 600.00 / AVG: 1190.63 / MAX: 1200.00
+    SCHED_RR and prio=49 .............. MIN: 600.00 / AVG: 1185.71 / MAX: 1200.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU0) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 73.66 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 73.29 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 71.98 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 55.93 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 77.6 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU1) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 79.71 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 75.44 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 87.23 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 63.34 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 67.79 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU2) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 79.28 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 76.87 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 71.18 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 69.1 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 78.2 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (CPU3) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 76.3 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 87.86 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 70.3 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 78.98 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 75.25 / MAX: 100.00
+
+John The Ripper 1.8.0
+CPU Usage (Summary) Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.51 / AVG: 77.19 / MAX: 100.00
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 77.88 / MAX: 100.00
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 75.46 / MAX: 100.00
+    SCHED_FIFO and prio=49 ............ MIN: 2.02 / AVG: 70.46 / MAX: 100.00
+    SCHED_RR and prio=49 .............. MIN: 0.50 / AVG: 74.64 / MAX: 100.00
+
+John The Ripper 1.8.0
+Drive Write Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.10
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.07
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.10
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.02 / MAX: 0.11
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.01 / MAX: 0.09
+
+John The Ripper 1.8.0
+Memory Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 48 / AVG: 49.98 / MAX: 52
+    SCHED_OTHER and nice=-20 .......... MIN: 49 / AVG: 50.76 / MAX: 52
+    SCHED_IDLEPRIO .................... MIN: 44 / AVG: 45.38 / MAX: 47
+    SCHED_FIFO and prio=49 ............ MIN: 45 / AVG: 46.75 / MAX: 48
+    SCHED_RR and prio=49 .............. MIN: 45 / AVG: 46.9 / MAX: 49
+
+John The Ripper 1.8.0
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_OTHER and nice=-20 .......... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_FIFO and prio=49 ............ MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_RR and prio=49 .............. MIN: 45 / AVG: 45 / MAX: 45
+
+John The Ripper 1.8.0
+System Iowait Monitor
+  Percent
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.01 / MAX: 0.25
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.25
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.01 / MAX: 0.25
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.27 / MAX: 4.55
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.08 / MAX: 2.52
+
+John The Ripper 1.8.0
+System Temperature Monitor
+  Celsius
+    SCHED_OTHER and nice=19 ........... MIN: 36.5 / AVG: 41.52 / MAX: 42.9
+    SCHED_OTHER and nice=-20 .......... MIN: 36.5 / AVG: 41.61 / MAX: 43.5
+    SCHED_IDLEPRIO .................... MIN: 37.6 / AVG: 42.49 / MAX: 44.0
+    SCHED_FIFO and prio=49 ............ MIN: 36.5 / AVG: 42.12 / MAX: 44.0
+    SCHED_RR and prio=49 .............. MIN: 36.5 / AVG: 42.42 / MAX: 44.0
+
+Drive Read Speed (mmcblk0) Monitor 
+Phoronix Test Suite System Monitoring
+  MB/s
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0 / MAX: 0.43
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0 / MAX: 0.04
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0 / MAX: 0.42
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0 / MAX: 0.29
+
+Swap Usage Monitor 
+Phoronix Test Suite System Monitoring
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_OTHER and nice=-20 .......... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_FIFO and prio=49 ............ MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_RR and prio=49 .............. MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_FIFO and prio=49 ............ MIN: 46 / AVG: 46 / MAX: 46
+    SCHED_RR and prio=49 .............. MIN: 45 / AVG: 45.25 / MAX: 46
+
+John The Ripper 1.8.0
+System Iowait Monitor
+  Percent
+    SCHED_OTHER and nice=-20 .......... MIN: 0.00 / AVG: 0.01 / MAX: 0.50
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.25
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.78 / MAX: 36.02
+
+Latt 0.1
+Drive Read Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_OTHER and nice=19 ........... MIN: 0.00 / AVG: 0.67 / MAX: 6.57
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.69 / MAX: 4.99
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.82 / MAX: 4.79
+
+Latt 0.1
+Swap Usage Monitor
+  Megabytes
+    SCHED_OTHER and nice=19 ........... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_IDLEPRIO .................... MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_FIFO and prio=49 ............ MIN: 26 / AVG: 26 / MAX: 26
+    SCHED_RR and prio=49 .............. MIN: 26 / AVG: 26 / MAX: 26
+
+Hackbench 1.0
+System Iowait Monitor
+  Percent
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.08 / MAX: 2.01
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.16 / MAX: 1.46
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.02 / MAX: 0.50
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.08 / MAX: 5.45
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.04 / MAX: 3.47
+
+Hackbench 1.0
+System Iowait Monitor
+  Percent
+    SCHED_IDLEPRIO .................... MIN: 0.00 / AVG: 0.55 / MAX: 22.36
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.16 / MAX: 1.72
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.03 / MAX: 0.24
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 0.08 / MAX: 16.52
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 0.02 / MAX: 3.20
+
+Hackbench 1.0
+System Iowait Monitor
+  Percent
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.14 / MAX: 2.26
+    SCHED_RR and prio=49 .............. MIN: 0.00 / AVG: 0.78 / MAX: 9.00
+    SCHED_RT_FIFO and prio=49 ......... MIN: 0.00 / AVG: 1.16 / MAX: 4.71
+    SCHED_RT_RR and prio=49 ........... MIN: 0.00 / AVG: 1.42 / MAX: 4.85
+
+John The Ripper 1.8.0
+Drive Read Speed (mmcblk0) Monitor
+  MB/s
+    SCHED_FIFO and prio=49 ............ MIN: 0.00 / AVG: 0.01 / MAX: 0.42
+
+    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m
