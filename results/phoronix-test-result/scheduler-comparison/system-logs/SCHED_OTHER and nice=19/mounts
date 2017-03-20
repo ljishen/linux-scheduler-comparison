@@ -18,6 +18,7 @@ systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=22,pgrp=1,timeout=300,m
 debugfs /sys/kernel/debug debugfs rw,relatime 0 0
 mqueue /dev/mqueue mqueue rw,relatime 0 0
 configfs /sys/kernel/config configfs rw,relatime 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
 /dev/mmcblk0p6 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro 0 0
 binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
 tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=94776k,mode=700,uid=1000,gid=1000 0 0

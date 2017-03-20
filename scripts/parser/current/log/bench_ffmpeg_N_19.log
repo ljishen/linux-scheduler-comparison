@@ -22,12 +22,18 @@
 
 
 [1mRecently Saved Test Results:[0m
-- scheduler-comparision   [Today]
+- scheduler-comparison   [Today]
 
     Enter a name to save these results under: 
 Current Test Identifiers:
-- SCHED_OTHER, nice=-20
-- SCHED_OTHER, nice=19
+- SCHED_OTHER and nice=-20
+- SCHED_OTHER and nice=19
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
+- SCHED_OTHER and nice=-20 qweqwe
 
     Enter a unique name to describe this test run / configuration: 
 [1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
@@ -58,21 +64,19 @@ Sensors To Be Logged:
     pts/ffmpeg-2.5.0[0m
     Test 1 of 1
     Estimated Trial Run Count:    3
-    Estimated Time To Completion: 24 Minutes [01:11 PDT]
-        Started Run 1 @ 00:47:53
-        Started Run 2 @ 00:55:36
-        Started Run 3 @ 01:03:18
+    Estimated Time To Completion: 24 Minutes [15:39 PDT]
+        Started Run 1 @ 15:15:29
+        Started Run 2 @ 15:22:39
+        Started Run 3 @ 15:29:49
 
     H.264 HD To NTSC DV:
-        [1;31m462.35898303986[0m
-        [1;32m460.99443101883[0m
-        461.00733089447
+        428.65442490578
+        [1;31m429.37046098709[0m
+        [1;32m424.85019803047[0m
 
-    Average: [1;34m461.45 Seconds[0m
-    Deviation: 0.17%
+    Average: [1;34m427.63 Seconds[0m
+    Deviation: 0.57%
 
 
 Finishing System Sensor Monitoring Process
-    [1mDo you want to view the text results of the testing (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m    [1mWould you like to attach the system logs (lspci, dmesg, lsusb, etc) to the test result (Y/n): [0m
-Results Uploaded To: http://openbenchmarking.org/result/1703165-RI-SCHEDULER79
-
+    [1mDo you want to view the text results of the testing (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m

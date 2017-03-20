@@ -8,7 +8,11 @@ COMPOSITE_FILE = '/var/lib/phoronix-test-suite/test-results/scheduler-comparison
 tree = ET.parse(COMPOSITE_FILE)
 root = tree.getroot()
 
-remove_descriptions = ['Phoronix Test Suite System Monitoring', 'Drive Read Speed', 'Drive Write Speed', 'System Iowait Monitor', 'Swap Usage Monitor']
+remove_descriptions = ['Phoronix Test Suite System Monitoring',
+                       'Drive Read Speed',
+                       'Drive Write Speed',
+                       'System Iowait Monitor',
+                       'Swap Usage Monitor']
 
 for result in root.findall('Result'):
     description = result.find('Description').text

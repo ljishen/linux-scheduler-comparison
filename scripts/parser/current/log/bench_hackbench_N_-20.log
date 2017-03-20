@@ -36,13 +36,19 @@ Hackbench 1.0:
 
 
 [1mRecently Saved Test Results:[0m
-- scheduler-comparision   [Today]
+- scheduler-comparison   [Today]
 
     Enter a name to save these results under: 
 Current Test Identifiers:
-- SCHED_OTHER, nice=-20
+- SCHED_OTHER and nice=-20
+- SCHED_OTHER and nice=19
+- SCHED_IDLEPRIO
+- SCHED_FIFO and prio=49
+- SCHED_RR and prio=49
+- SCHED_RT_FIFO and prio=49
+- SCHED_RT_RR and prio=49
 
-    Enter a unique name to describe this test run / configuration: 
+    Enter a unique name to describe this test run / configuration:     Enter a unique name to describe this test run / configuration: 
 [1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
 [1;32mPress ENTER to proceed without changes.[0m
 
@@ -71,78 +77,76 @@ Sensors To Be Logged:
     ljishen/hackbench-1.0.0 [Communication Type: Pipes - Entity Type: Process][0m
     Test 1 of 4
     Estimated Trial Run Count:    3
-    Estimated Test Run-Time:      3 Minutes
-    Estimated Time To Completion: 11 Minutes [21:31 PDT]
-        Started Run 1 @ 21:21:49
-        Started Run 2 @ 21:22:38
-        Started Run 3 @ 21:23:28
+    Estimated Test Run-Time:      8 Minutes
+    Estimated Time To Completion: 29 Minutes [15:06 PDT]
+        Started Run 1 @ 14:38:17
+        Started Run 2 @ 14:39:09
+        Started Run 3 @ 14:40:03
 
     Communication Type: Pipes - Entity Type: Process:
-        [1;32m46.37[0m
-        [1;31m49.037[0m
-        48.735
+        [1;32m50.319[0m
+        52.013
+        [1;31m52.541[0m
 
-    Average: [1;34m48.05 Seconds[0m
-    Deviation: 3.04%
+    Average: [1;34m51.62 Seconds[0m
+    Deviation: 2.25%
 
 
 [1;36mHackbench 1.0:
     ljishen/hackbench-1.0.0 [Communication Type: Pipes - Entity Type: Thread][0m
     Test 2 of 4
     Estimated Trial Run Count:    3
-    Estimated Test Run-Time:      3 Minutes
-    Estimated Time To Completion: 8 Minutes [21:32 PDT]
-        Started Run 1 @ 21:24:40
-        Started Run 2 @ 21:25:26
-        Started Run 3 @ 21:26:13
+    Estimated Test Run-Time:      8 Minutes
+    Estimated Time To Completion: 22 Minutes [15:02 PDT]
+        Started Run 1 @ 14:41:19
+        Started Run 2 @ 14:42:10
+        Started Run 3 @ 14:42:59
 
     Communication Type: Pipes - Entity Type: Thread:
-        [1;32m43.66[0m
-        [1;31m45.864[0m
-        45.826
+        49.977
+        [1;32m47.367[0m
+        [1;31m50.306[0m
 
-    Average: [1;34m45.12 Seconds[0m
-    Deviation: 2.80%
+    Average: [1;34m49.22 Seconds[0m
+    Deviation: 3.27%
 
 
 [1;36mHackbench 1.0:
     ljishen/hackbench-1.0.0 [Communication Type: Sockets - Entity Type: Process][0m
     Test 3 of 4
     Estimated Trial Run Count:    3
-    Estimated Test Run-Time:      3 Minutes
-    Estimated Time To Completion: 6 Minutes [21:32 PDT]
-        Started Run 1 @ 21:27:22
-        Started Run 2 @ 21:28:09
-        Started Run 3 @ 21:28:56
+    Estimated Test Run-Time:      8 Minutes
+    Estimated Time To Completion: 15 Minutes [14:58 PDT]
+        Started Run 1 @ 14:44:12
+        Started Run 2 @ 14:44:59
+        Started Run 3 @ 14:45:50
 
     Communication Type: Sockets - Entity Type: Process:
-        [1;31m45.821[0m
-        45.059
-        [1;32m44.541[0m
+        [1;32m45.275[0m
+        48.7
+        [1;31m49.141[0m
 
-    Average: [1;34m45.14 Seconds[0m
-    Deviation: 1.43%
+    Average: [1;34m47.71 Seconds[0m
+    Deviation: 4.44%
 
 
 [1;36mHackbench 1.0:
     ljishen/hackbench-1.0.0 [Communication Type: Sockets - Entity Type: Thread][0m
     Test 4 of 4
     Estimated Trial Run Count:    3
-    Estimated Time To Completion: 3 Minutes [21:32 PDT]
-        Started Run 1 @ 21:30:04
-        Started Run 2 @ 21:30:50
-        Started Run 3 @ 21:31:35
+    Estimated Time To Completion: 8 Minutes [14:54 PDT]
+        Started Run 1 @ 14:47:02
+        Started Run 2 @ 14:47:53
+        Started Run 3 @ 14:48:40
 
     Communication Type: Sockets - Entity Type: Thread:
-        44.902
-        [1;32m43.479[0m
-        [1;31m45.718[0m
+        [1;31m49.564[0m
+        [1;32m45.208[0m
+        47.648
 
-    Average: [1;34m44.70 Seconds[0m
-    Deviation: 2.53%
+    Average: [1;34m47.47 Seconds[0m
+    Deviation: 4.60%
 
 
 Finishing System Sensor Monitoring Process
-    [1mDo you want to view the text results of the testing (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m    [1mWould you like to attach the system logs (lspci, dmesg, lsusb, etc) to the test result (Y/n): [0m
-Results Uploaded To: http://openbenchmarking.org/result/1703161-RI-SCHEDULER66
-
+    [1mDo you want to view the text results of the testing (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m
