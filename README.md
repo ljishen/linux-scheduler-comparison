@@ -1,6 +1,6 @@
 # Linux Scheduler Comparison
 
-This work compared the performance and power consumption of 7 different scheduling policies including two real-time policies with 5 benchmark utilities.
+This work compares the performance and power consumption of 7 different scheduling policies including two real-time policies with 5 benchmark utilities.
 
 
 ## Scheduling Policies
