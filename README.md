@@ -27,10 +27,16 @@ This work compares the performance and power consumption of 7 different scheduli
 | [John The Ripper](http://openbenchmarking.org/test/pts/john-the-ripper) | A password cracker and performance measured in c/s                                                 |
 
 
-## Result
-[scheduler-comparison](http://openbenchmarking.org/result/1703190-RI-SCHEDULER56) on OpenBenchmarking.org
+## Results
 
-See this [paper](https://drive.google.com/file/d/0B9Q3i4Vp4rm2SEZjcUIzY3FLczA/view?usp=sharing) for more details.
+### Current Change Example (FFmpeg)
+![alt text](https://raw.githubusercontent.com/ljishen/linux-scheduler-comparison/master/images/current_change_ffmpeg.png "Current Change Example (FFmpeg)")
+
+Click [here](https://github.com/ljishen/linux-scheduler-comparison/blob/master/scripts/parser/current/current_change.ipynb) to view more figures.
+
+Full benchmark result [scheduler-comparison](http://openbenchmarking.org/result/1703190-RI-SCHEDULER56) on OpenBenchmarking.org
+
+The [paper](https://drive.google.com/file/d/0B9Q3i4Vp4rm2SEZjcUIzY3FLczA/view?usp=sharing) for this project.
 
 
 ## References
