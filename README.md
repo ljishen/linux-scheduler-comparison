@@ -36,7 +36,7 @@ Click [here](https://github.com/ljishen/linux-scheduler-comparison/blob/master/s
 
 Full benchmark result [scheduler-comparison](http://openbenchmarking.org/result/1703190-RI-SCHEDULER56) on OpenBenchmarking.org
 
-The [paper](https://drive.google.com/file/d/0B9Q3i4Vp4rm2SEZjcUIzY3FLczA/view?usp=sharing) for this project.
+The [paper](https://drive.google.com/file/d/0B9Q3i4Vp4rm2SEZjcUIzY3FLczA/view?usp=sharing&resourcekey=0-QRMRxMQg6cDncXTdROUljQ) for this project.
 
 
 ## References
